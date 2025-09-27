@@ -26,7 +26,9 @@ namespace Lab1_Winform_24520218
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Bai_2 bai2 = new Bai_2();
+            bai2.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
