@@ -33,7 +33,9 @@ namespace Lab1_Winform_24520218
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Bai_3 bai3 = new Bai_3();   
+            bai3.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)

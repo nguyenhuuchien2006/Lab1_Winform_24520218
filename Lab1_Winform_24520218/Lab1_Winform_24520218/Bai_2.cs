@@ -27,18 +27,21 @@ namespace Lab1_Winform_24520218
             if (!double.TryParse(textBox1.Text.Trim(),out double so1))
             {
                 MessageBox.Show("Số thứ nhất không hợp lệ");
+                textBox1.Clear();
                 textBox1.Focus();
                 return;
             }
             if (!double.TryParse(textBox2.Text.Trim(), out double so2))
             {
                 MessageBox.Show("Số thứ hai không hợp lệ");
+                textBox2.Clear();
                 textBox2.Focus();
                 return;
             }
             if (!double.TryParse(textBox3.Text.Trim(), out double so3))
             {
                 MessageBox.Show("Số thứ ba không hợp lệ");
+                textBox2.Clear();
                 textBox3.Focus();
                 return;
             }

@@ -27,12 +27,14 @@ namespace Lab1_Winform_24520218
            if (!int.TryParse(textBox1.Text, out int n))
            {
                 MessageBox.Show("Vui lòng nhập số nguyên cho số thứ nhất.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBox1.Clear();
                 textBox1.Focus();
                 return;
            }
            if (!int.TryParse(textBox2.Text, out int m))
            {
                 MessageBox.Show("Vui lòng nhập số nguyên cho số thứ hai.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBox2.Clear();
                 textBox2.Focus();
                 return;
            }
