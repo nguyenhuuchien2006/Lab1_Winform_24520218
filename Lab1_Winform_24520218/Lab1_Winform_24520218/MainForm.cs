@@ -40,12 +40,37 @@ namespace Lab1_Winform_24520218
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Bai_4 bai4 = new Bai_4();
+            bai4.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Bai_5 bai5 = new Bai_5();   
+            bai5.Show();    
+            this.Hide();
+        }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Bai_6 bai6 =new Bai_6();    
+            bai6.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Bai_7 bai7 = new Bai_7();
+            bai7.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Bai_8 bai8 = new Bai_8();
+            bai8.Show();
+            this.Hide();
         }
     }
 }
